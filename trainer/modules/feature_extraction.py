@@ -1,7 +1,8 @@
 import torch.nn as nn
 import torch.nn.functional as F
 
-
+## testing puropoeses
+## 1. VGG_FeatureExtractor
 class VGG_FeatureExtractor(nn.Module):
     """ FeatureExtractor of CRNN (https://arxiv.org/pdf/1507.05717.pdf) """
 
